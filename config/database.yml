@@ -25,5 +25,9 @@ test:
   database: mapchat_test
 
 production:
-  <<: *default
-  database: mapchat
+  database: d81m1g933325h2
+  url: <%= ENV["DATABASE_URL"] %>
+  adapter: postgresql
+  port: 5432
+  host: ec2-54-235-90-107.compute-1.amazonaws.com
+  password:
