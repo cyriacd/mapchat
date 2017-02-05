@@ -1,0 +1,101 @@
+2017-02-05T18:23:07.887633+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2017-02-05T18:23:07.887634+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2017-02-05T18:23:07.853047+00:00 app[web.1]: [2017-02-05 18:23:07] INFO  WEBrick::HTTPServer#start done.
+2017-02-05T18:23:07.887634+00:00 app[web.1]: => Ctrl-C to shutdown server
+2017-02-05T18:23:07.887635+00:00 app[web.1]: Exiting
+2017-02-05T18:23:07.844707+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-05T18:23:07.988854+00:00 heroku[web.1]: Process exited with status 143
+2017-02-05T18:23:09.842173+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 30322 -e production`
+2017-02-05T18:23:12.354880+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activesupport-4.1.1/lib/active_support/values/time_zone.rb:285: warning: circular argument reference - now
+2017-02-05T18:23:13.742203+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:78: warning: circular argument reference - reflection
+2017-02-05T18:23:13.741382+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:74: warning: circular argument reference - reflection
+2017-02-05T18:23:13.742205+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:82: warning: circular argument reference - reflection
+2017-02-05T18:23:13.742288+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:101: warning: circular argument reference - reflection
+2017-02-05T18:23:13.858712+00:00 app[web.1]: [DEPRECATION] requiring "RMagick" is deprecated. Use "rmagick" instead
+2017-02-05T18:23:14.085882+00:00 app[web.1]: [2017-02-05 18:23:14] INFO  WEBrick 1.3.1
+2017-02-05T18:23:14.085904+00:00 app[web.1]: [2017-02-05 18:23:14] INFO  ruby 2.2.6 (2016-11-15) [x86_64-linux]
+2017-02-05T18:23:14.086279+00:00 app[web.1]: [2017-02-05 18:23:14] INFO  WEBrick::HTTPServer#start: pid=4 port=30322
+2017-02-05T18:23:14.604164+00:00 heroku[web.1]: State changed from starting to up
+2017-02-05T18:23:49.282464+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-05T18:23:49.282474+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-05T18:23:49.795403+00:00 heroku[web.1]: Restarting
+2017-02-05T18:23:49.796152+00:00 heroku[web.1]: State changed from up to starting
+2017-02-05T18:23:50.500319+00:00 app[web.1]: [2017-02-05 18:23:50] FATAL SignalException: SIGTERM
+2017-02-05T18:23:50.500328+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+2017-02-05T18:23:50.500329+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+2017-02-05T18:23:50.500330+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+2017-02-05T18:23:50.500330+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+2017-02-05T18:23:50.500331+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:14:in `run'
+2017-02-05T18:23:50.500332+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.5.5/lib/rack/server.rb:264:in `start'
+2017-02-05T18:23:50.500332+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/server.rb:69:in `start'
+2017-02-05T18:23:50.500333+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:81:in `block in server'
+2017-02-05T18:23:50.500334+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:76:in `tap'
+2017-02-05T18:23:50.500335+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:76:in `server'
+2017-02-05T18:23:50.500335+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+2017-02-05T18:23:50.500336+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands.rb:17:in `<top (required)>'
+2017-02-05T18:23:50.500337+00:00 app[web.1]: 	bin/rails:8:in `require'
+2017-02-05T18:23:50.500338+00:00 app[web.1]: 	bin/rails:8:in `<main>'
+2017-02-05T18:23:50.500525+00:00 app[web.1]: [2017-02-05 18:23:50] INFO  going to shutdown ...
+2017-02-05T18:23:50.500598+00:00 app[web.1]: [2017-02-05 18:23:50] INFO  WEBrick::HTTPServer#start done.
+2017-02-05T18:23:50.546257+00:00 app[web.1]: => Booting WEBrick
+2017-02-05T18:23:50.546260+00:00 app[web.1]: => Rails 4.1.1 application starting in production on http://0.0.0.0:30322
+2017-02-05T18:23:50.546261+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2017-02-05T18:23:50.546262+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2017-02-05T18:23:50.546262+00:00 app[web.1]: => Ctrl-C to shutdown server
+2017-02-05T18:23:50.546263+00:00 app[web.1]: Exiting
+2017-02-05T18:23:50.486817+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-05T18:23:50.675541+00:00 heroku[web.1]: Process exited with status 143
+2017-02-05T18:23:52.498512+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 46152 -e production`
+2017-02-05T18:23:54.988271+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activesupport-4.1.1/lib/active_support/values/time_zone.rb:285: warning: circular argument reference - now
+2017-02-05T18:23:56.292601+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:74: warning: circular argument reference - reflection
+2017-02-05T18:23:56.292691+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:78: warning: circular argument reference - reflection
+2017-02-05T18:23:56.292746+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:82: warning: circular argument reference - reflection
+2017-02-05T18:23:56.292778+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:101: warning: circular argument reference - reflection
+2017-02-05T18:23:56.398584+00:00 app[web.1]: [DEPRECATION] requiring "RMagick" is deprecated. Use "rmagick" instead
+2017-02-05T18:23:56.601329+00:00 app[web.1]: [2017-02-05 18:23:56] INFO  WEBrick 1.3.1
+2017-02-05T18:23:56.601355+00:00 app[web.1]: [2017-02-05 18:23:56] INFO  ruby 2.2.6 (2016-11-15) [x86_64-linux]
+2017-02-05T18:23:56.601585+00:00 app[web.1]: [2017-02-05 18:23:56] INFO  WEBrick::HTTPServer#start: pid=4 port=46152
+2017-02-05T18:23:56.737862+00:00 heroku[web.1]: State changed from starting to up
+2017-02-05T18:24:02.534379+00:00 heroku[router]: at=info method=GET path="/" host=map-chat-app.herokuapp.com request_id=8c516acf-9237-489c-ada5-fc2f7c503e0b fwd="108.95.179.174" dyno=web.1 connect=0ms service=48ms status=500 bytes=1754
+2017-02-05T18:24:33.680538+00:00 heroku[slug-compiler]: Slug compilation started
+2017-02-05T18:24:33.680549+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-02-05T18:24:34.166110+00:00 heroku[web.1]: Restarting
+2017-02-05T18:24:34.166693+00:00 heroku[web.1]: State changed from up to starting
+2017-02-05T18:24:34.674366+00:00 app[web.1]: [2017-02-05 18:24:34] FATAL SignalException: SIGTERM
+2017-02-05T18:24:34.674378+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+2017-02-05T18:24:34.674380+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+2017-02-05T18:24:34.674380+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+2017-02-05T18:24:34.674381+00:00 app[web.1]: 	/app/vendor/ruby-2.2.6/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+2017-02-05T18:24:34.674382+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:14:in `run'
+2017-02-05T18:24:34.674382+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.5.5/lib/rack/server.rb:264:in `start'
+2017-02-05T18:24:34.674383+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/server.rb:69:in `start'
+2017-02-05T18:24:34.674384+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:81:in `block in server'
+2017-02-05T18:24:34.674385+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:76:in `tap'
+2017-02-05T18:24:34.674385+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:76:in `server'
+2017-02-05T18:24:34.674386+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+2017-02-05T18:24:34.674387+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/railties-4.1.1/lib/rails/commands.rb:17:in `<top (required)>'
+2017-02-05T18:24:34.674388+00:00 app[web.1]: 	bin/rails:8:in `require'
+2017-02-05T18:24:34.674388+00:00 app[web.1]: 	bin/rails:8:in `<main>'
+2017-02-05T18:24:34.674485+00:00 app[web.1]: [2017-02-05 18:24:34] INFO  going to shutdown ...
+2017-02-05T18:24:34.674558+00:00 app[web.1]: [2017-02-05 18:24:34] INFO  WEBrick::HTTPServer#start done.
+2017-02-05T18:24:34.719609+00:00 app[web.1]: => Booting WEBrick
+2017-02-05T18:24:34.719612+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2017-02-05T18:24:34.719611+00:00 app[web.1]: => Rails 4.1.1 application starting in production on http://0.0.0.0:46152
+2017-02-05T18:24:34.719613+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2017-02-05T18:24:34.719614+00:00 app[web.1]: => Ctrl-C to shutdown server
+2017-02-05T18:24:34.719615+00:00 app[web.1]: Exiting
+2017-02-05T18:24:34.666480+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-02-05T18:24:34.811148+00:00 heroku[web.1]: Process exited with status 143
+2017-02-05T18:24:36.311106+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 10120 -e production`
+2017-02-05T18:24:38.497630+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activesupport-4.1.1/lib/active_support/values/time_zone.rb:285: warning: circular argument reference - now
+2017-02-05T18:24:39.432899+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:74: warning: circular argument reference - reflection
+2017-02-05T18:24:39.432924+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:78: warning: circular argument reference - reflection
+2017-02-05T18:24:39.433014+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:101: warning: circular argument reference - reflection
+2017-02-05T18:24:39.432955+00:00 app[web.1]: /app/vendor/bundle/ruby/2.2.0/gems/activerecord-4.1.1/lib/active_record/associations/has_many_association.rb:82: warning: circular argument reference - reflection
+2017-02-05T18:24:39.515114+00:00 app[web.1]: [DEPRECATION] requiring "RMagick" is deprecated. Use "rmagick" instead
+2017-02-05T18:24:39.649819+00:00 app[web.1]: [2017-02-05 18:24:39] INFO  WEBrick 1.3.1
+2017-02-05T18:24:39.649825+00:00 app[web.1]: [2017-02-05 18:24:39] INFO  ruby 2.2.6 (2016-11-15) [x86_64-linux]
+2017-02-05T18:24:39.650076+00:00 app[web.1]: [2017-02-05 18:24:39] INFO  WEBrick::HTTPServer#start: pid=4 port=10120
+2017-02-05T18:24:39.983826+00:00 heroku[web.1]: State changed from starting to up
+2017-02-05T18:24:40.962936+00:00 heroku[router]: at=info method=GET path="/" host=map-chat-app.herokuapp.com request_id=dae21e70-a546-455c-9550-ff1cee0aaabd fwd="108.95.179.174" dyno=web.1 connect=0ms service=44ms status=500 bytes=1754
+2017-02-05T18:37:00.106218+00:00 heroku[router]: at=info method=GET path="/" host=map-chat-app.herokuapp.com request_id=03e85b94-ec54-4269-9865-64b024241c3e fwd="108.95.179.174" dyno=web.1 connect=1ms service=10ms status=500 bytes=1754
